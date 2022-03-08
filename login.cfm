@@ -37,11 +37,11 @@ https://www.raymondcamden.com/2009/01/01/Ask-a-Jedi-cflogout-session-variables-a
 																<h3 class="text-center text-info">&nbsp;Please Sign-in</h3>
 																<div class="form-group">
 																	<label for="username" class="text-info">Employee ID:</label><br>
-																	<input type="text" name="username" id="username" placeholder="Employee_id"  class="form-control">
+																	<input type="email"  required name="username" id="username" placeholder="Employee_id"  class="form-control">
 																</div>
 																<div class="form-group">
 																	<label for="password" class="text-info">Employee Name:</label><br>
-																	<input type="password" name="password" id="password" class="form-control"  placeholder="Employee name" onchange="_fnDisable(this)" >
+																	<input type="password" required name="password" id="password" class="form-control"  placeholder="Employee name" onchange="_fnDisable(this)" >
 																</div>
 																<div class="form-group">
 																<input type="submit" name="submitButton" id="submitButton" class="btn btn-info btn-md enableOnInput" value="Login" >
