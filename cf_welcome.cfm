@@ -16,10 +16,10 @@
 	                    <div id="login-box" class="col-md-12">
 	                       <form class="form-signout">
 								<!---<cfdump var="#session.loggedin#" >--->
-	    						<span class="text-center text-info"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;You are in! <cfoutput>
-							#session.stLoggedInUser.username#(#session.stLoggedInUser.userrole==0?"Admin":session.stLoggedInUser.userrole==1?"Editor":"User"#)
+	    						<span class="text-center text-info">&nbsp;You are in! <cfoutput>
+							#session.stLoggedInUser.username#
 								</cfoutput></span>
-	    						<!---<button class="btn btn-lg btn-danger btn-block" type="button" id="logoutbutton"><a href="index.cfm">Logout</button></a>--->
+	    						<!---<button class="btn btn-lg btn-danger btn-block" type="button" id="logoutbutton"><a href="login.cfm">Logout</button></a>--->
 	    						<a href="logout.cfm" id="logoutButton" class="btn btn-sm btn-danger">Logout</a>
 	  						</form> 
 	                    </div>
