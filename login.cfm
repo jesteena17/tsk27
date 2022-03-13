@@ -45,7 +45,6 @@ https://www.raymondcamden.com/2009/01/01/Ask-a-Jedi-cflogout-session-variables-a
 									<input type="submit" name="submitButton" id="submitButton" class="btn btn-info btn-md" value="Login" >
 									</div>
 								</form>
-								
 							</div>
 						</div>
 					</div>
